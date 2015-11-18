@@ -1,0 +1,2211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>startTamplate</title>
+
+
+    <!-- Bootstrap with own styles-->
+    <link href="css/projekts.css" rel="stylesheet">
+    <link href="css/projekts-styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link href="fonts/fa/css/font-awesome.css" rel="stylesheet">
+
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+
+
+    <!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="js/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+    <div class="background-white"> </div>
+    <div class="wrapper projects-wrapper">
+        <header class="home-page-header"><!-- header start -->
+        <div class="row row-for-margin">
+            <div class="support">
+                <a href="#">
+                    <span>Підтримати<br>нас</span>
+                    <img src="img/arrow-down.png" height="37" width="38" alt="DOWN">
+                </a>
+            </div>
+             <div class="search-active">
+                        <div class="col-md-12 col-lg-10 col-lg-offset-1">
+                            <input class="input-search" type=search placeholder="Пошук по сайту">
+                        </div>
+                    </div>
+            <div class="col-md-12 col-lg-10 col-lg-offset-1 container-for-header">
+                <div class="col-lg-4 col-md-3 left-header-home">
+                    <div class="col-lg-6 col-md-8 left-header-mn clearfix">
+                        <img src="img/logo.png" height="128" width="251" alt="logo">
+                    </div>
+                    <div class="col-lg-6 col-md-4 right-header-mn clearfix">
+                        <div class="dropdown pull-left">
+                            <button class="btn btn-default lang-btn dropdown-toggle " type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                UA <i class="fa fa-angle-down"></i>
+                            </button>
+                            <ul class="dropdown-menu hexagon ">
+                                <li><a href="#">EN</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-9 right-header-home">
+                    <div class="col-md-12 col-lg-12 right-header-news col-lg-push-1">
+                        <nav>
+                            <ul id="ddmenu" class="clearfix">
+                                <li><a href="#">Про ЦППР</a></li>
+                                <li><a href="#">Напрямки діяльності</a>
+                                <ul class="hexagonq third-hex">
+                                    <li><a href="#">Права людини</a></li>
+                                    <li><a href="#">Конституційне правосуддя</a></li>
+                                    <li><a href="#">Політичні партії та вибори</a></li>
+                                    <li><a href="#">Парламентаризм</a></li>
+                                    <li><a href="#">Конституційна реформа</a></li>
+                                </ul>
+                                </li>
+                                <li><a href="">Інфографіка</a>
+                                <ul class="hexagonq second-hex">
+                                    <li><a href="#">Конституціоналізм</a></li>
+                                    <li><a href="#">Публічна адміністрація</a></li>
+                                    <li><a href="#">Судівництво</a></li>
+                                    <li><a href="#">Кримінальна юстиція</a></li>
+                                    <li><a href="#">Протидія корупції</a></li>
+                                    <li><a href="#">Адміністративні послуги</a></li>
+                                    <li><a href="#">Європейська інтеграція</a></li>
+                                </ul>
+                                </li>
+                                <li><a href="#">Законопроектна діяльність</a>
+                                </li>
+                                <li><a href="#">Новини</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="search">
+                            <div class="hexagonw search-icon">
+                                <img src="img/search-icon.png" height="24" width="20" alt="search">
+                            </div>
+                            <div class="search-active">
+                                <img class="cross-search" src="img/cross-search.png" height="24" width="24" alt="exit">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </header>
+        <!-- header END -->
+        <div class="row projects-content ">
+
+            <div class="col-md-10 col-lg-10 col-lg-offset-1 col-md-offset-1 ">
+                <!-- контейнер для всего начало -->
+                <div class="col-md-12 col-lg-12 projects-title">
+                    <h1>Поточні проекти</h1>
+                </div>
+                <div class="col-md-12 col-lg-12 all-projects">
+                    <div class="col-md-12 col-lg-12 projects-head">
+                        <div class="col-md-6 col-lg-6 projects-head-left">
+                            <div class="col-md-2 col-lg-2">
+
+                            </div>
+                            <div class="col-md-8 col-lg-8">
+                                <span>Назва проекту</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 projects-head-right">
+                            <div class="col-md-5 col-lg-5 project-period">
+                                <span>Період</span>
+                            </div>
+                            <div class="col-md-4 col-lg-4">
+                                <span>Донор</span>
+                            </div>
+                            <div class="col-md-3 col-lg-3">
+                                <span>Сума Гранту</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-12 one-project">
+                        <div class="col-md-12 col-lg-12 visible-information">
+                            <div class="col-md-6 col-lg-6 projects-visible-left">
+                                <div class="col-md-2 col-lg-2 project-icon">
+                                    <img src="img/projects-speed.png" alt="speed">
+                                </div>
+                                <div class="col-md-10 col-lg-10 name-of-project">
+                                    <span>Спідометр "Україна - ЄС"</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6 projects-visible-right">
+                                <div class="col-md-5 col-lg-5 project-period visible-period">
+                                    <span>Січень 2014</span>
+                                    <span>—</span>
+                                    <span>січень 2016</span>
+                                </div>
+                                <div class="col-md-4 col-lg-4 project-donor">
+                                    <span>Європейська комісія</span>
+                                </div>
+                                <div class="col-md-3 col-lg-3 project-grant">
+                                    <span>€ 257 510</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-lg-12 hidden-information">
+                            <div class="col-md-10 col-lg-10 col-lg-offset-1 col-md-offset-1 ">
+                                <div class="col-md-12 col-lg-12 list-of-project">
+                                    <div class="unordered-list">
+                                        <ul>
+                                            <li>розробка пропозицій щодо проектів підзаконних нормативних актів, необхідних для реалізації Закону "Про адміністративні послуги"</li>
+                                            <li>адвокація розроблених проектів, а також законопроектів про оплату адміністративних послуг та Адміністративно-процедурного кодексу</li>
+                                            <li>підготовка 2-х практичних посібників щодо Закону «Про адміністративні послуги»: а) щодо виконання - для посадових осіб; b) щодо використання - для споживачів. </li>
+                                            <li>Підготовка та поширення науково-практичного коментаря до Закону проведення тренінгів для представників громадських організацій з тематики адміністративних послуг</li>
+                                            <li>організація публічних заходів (круглих столів, конференцій), в Києві та регіонах України</li>
+                                            <li>підготовка публікацій для ЗМІ, проведення прес-конференцій щодо реформи адміністративних послуг</li>
+                                            <li>розробка методики оцінки якості адміністративних послуг</li>
+                                        </ul>
+                                    </div>
+                                    <div class="ordered-list">
+                                        <ol>
+                                            <li>Проведення обстежень на відповідність офісів критеріям «оne-stop-shop», виявлення та популяризація кращих практик. Надання пропозицій органам влади щодо вдосконалення їх роботи. Формування узагальнених рекомендацій на базі «типових» проблем</li>
+                                            <li>здійснення іншої аналітичної роботи та підготовка пропозицій щодо політики та законодавства з питань дерегуляції, децентралізації та зменшення корупції у сфері адміністративних послуг</li>
+                                            <li>проведення 2-х соціологічних досліджень щодо якості адміністративних послуг</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                                <!-- list-of-project -->
+                            </div>
+                            <!-- container-of-list -->
+                            <div class="col-md-11 col-lg-11 col-lg-offset-1 col-md-offset-1 project-table ">
+                                <div class="col-md-12 col-lg-12 project-table-head">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 ">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4">
+                                            <span>Напрямок</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7">
+                                            <span>Керівник</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 ">
+                                            <span>Корупційні ризики</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5">
+                                            <span class='conclusion-span'>Висновок</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- head end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-book.png" height="36" width="28" alt="book">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Конституціоналізм</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Шпенов Д. Ю., народний депутат України</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-positive">
+                                            <span>Виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-house2.png" alt="house">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Публічна адміністрація</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Народний депутат України Дерев'янко Ю.Б.</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-negative">
+                                            <span>Не виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-hummer3.png" height="36" width="28" alt="hummer">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Судівництво</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Продан О.П., народний депутат України</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-negative">
+                                            <span>Не виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-shield4.png" height="36" width="28" alt="shield">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Кримінальна юстиція</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Тігіпко С.Л.</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-negative">
+                                            <span>Не виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-coruption5.png" height="36" width="28" alt="coruption">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Протидія корупції</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Шпенов Д. Ю., народний депутат України</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-positive">
+                                            <span>Виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-admin6.png" height="36" width="28" alt="admin">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Адміністративні послуги</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Народний депутат України Дерев'янко Ю.Б.</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-positive">
+                                            <span>Виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-gerb7.png" height="36" width="28" alt="gerb">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Європейська інтеграція</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Продан О.П., народний депутат України</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-positive">
+                                            <span>Виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-graph8.png" height="36" width="28" alt="graph">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Розвиток ЦППР</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Тігіпко С.Л.</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-negative">
+                                            <span>Не виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+
+                            </div>
+                            <div class="col-md-11 col-lg-11 col-lg-offset-1 col-md-offset-1 project-video">
+                                <img class='video-img' src="img/video.png" height="608" width="1081" alt="video">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-12 one-project">
+                        <div class="col-md-12 col-lg-12 visible-information">
+                            <div class="col-md-6 col-lg-6 projects-visible-left">
+                                <div class="col-md-2 col-lg-2 project-icon">
+                                    <img src="img/graph.png" alt="graph">
+                                </div>
+                                <div class="col-md-10 col-lg-10 name-of-project">
+                                    <span>Поліпшення якості адміністративних послуг через посилення впливу громадянського суспільства на публічну політику.</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6 projects-visible-right">
+                                <div class="col-md-5 col-lg-5 project-period visible-period">
+                                    <span>Січень 2013</span>
+                                    <span>—</span>
+                                    <span>січень 2015</span>
+                                </div>
+                                <div class="col-md-4 col-lg-4 project-donor">
+                                    <span>Європейська комісія</span>
+                                </div>
+                                <div class="col-md-3 col-lg-3 project-grant">
+                                    <span>€ 217 457</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-lg-12 hidden-information">
+                            <div class="col-md-10 col-lg-10 col-lg-offset-1 col-md-offset-1 ">
+                                <div class="col-md-12 col-lg-12 list-of-project">
+                                    <div class="unordered-list">
+                                        <ul>
+                                            <li>розробка пропозицій щодо проектів підзаконних нормативних актів, необхідних для реалізації Закону "Про адміністративні послуги"</li>
+                                            <li>адвокація розроблених проектів, а також законопроектів про оплату адміністративних послуг та Адміністративно-процедурного кодексу</li>
+                                            <li>підготовка 2-х практичних посібників щодо Закону «Про адміністративні послуги»: а) щодо виконання - для посадових осіб; b) щодо використання - для споживачів. </li>
+                                            <li>Підготовка та поширення науково-практичного коментаря до Закону проведення тренінгів для представників громадських організацій з тематики адміністративних послуг</li>
+                                            <li>організація публічних заходів (круглих столів, конференцій), в Києві та регіонах України</li>
+                                            <li>підготовка публікацій для ЗМІ, проведення прес-конференцій щодо реформи адміністративних послуг</li>
+                                            <li>розробка методики оцінки якості адміністративних послуг</li>
+                                        </ul>
+                                    </div>
+                                    <div class="ordered-list">
+                                        <ol>
+                                            <li>Проведення обстежень на відповідність офісів критеріям «оne-stop-shop», виявлення та популяризація кращих практик. Надання пропозицій органам влади щодо вдосконалення їх роботи. Формування узагальнених рекомендацій на базі «типових» проблем</li>
+                                            <li>здійснення іншої аналітичної роботи та підготовка пропозицій щодо політики та законодавства з питань дерегуляції, децентралізації та зменшення корупції у сфері адміністративних послуг</li>
+                                            <li>проведення 2-х соціологічних досліджень щодо якості адміністративних послуг</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                                <!-- list-of-project -->
+                            </div>
+                            <!-- container-of-list -->
+                            <div class="col-md-11 col-lg-11 col-lg-offset-1 col-md-offset-1 project-table ">
+                                <div class="col-md-12 col-lg-12 project-table-head">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 ">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4">
+                                            <span>Напрямок</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7">
+                                            <span>Керівник</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 ">
+                                            <span>Корупційні ризики</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5">
+                                            <span class='conclusion-span'>Висновок</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- head end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-book.png" height="36" width="28" alt="book">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Конституціоналізм</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Шпенов Д. Ю., народний депутат України</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-positive">
+                                            <span>Виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-house2.png" alt="house">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Публічна адміністрація</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Народний депутат України Дерев'янко Ю.Б.</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-negative">
+                                            <span>Не виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-hummer3.png" height="36" width="28" alt="hummer">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Судівництво</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Продан О.П., народний депутат України</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-negative">
+                                            <span>Не виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-shield4.png" height="36" width="28" alt="shield">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Кримінальна юстиція</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Тігіпко С.Л.</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-negative">
+                                            <span>Не виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-coruption5.png" height="36" width="28" alt="coruption">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Протидія корупції</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Шпенов Д. Ю., народний депутат України</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-positive">
+                                            <span>Виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-admin6.png" height="36" width="28" alt="admin">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Адміністративні послуги</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Народний депутат України Дерев'янко Ю.Б.</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-positive">
+                                            <span>Виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-gerb7.png" height="36" width="28" alt="gerb">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Європейська інтеграція</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Продан О.П., народний депутат України</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-positive">
+                                            <span>Виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-graph8.png" height="36" width="28" alt="graph">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Розвиток ЦППР</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Тігіпко С.Л.</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-negative">
+                                            <span>Не виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+
+                            </div>
+                            <div class="col-md-11 col-lg-11 col-lg-offset-1 col-md-offset-1 project-video">
+                                <img class='video-img' src="img/video.png" height="608" width="1081" alt="video">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- one-project		 -->
+                    <div class="col-md-12 col-lg-12 one-project">
+                        <div class="col-md-12 col-lg-12 visible-information">
+                            <div class="col-md-6 col-lg-6 projects-visible-left">
+                                <div class="col-md-2 col-lg-2 project-icon">
+                                    <img src="img/eye-project.png" alt="eye">
+                                </div>
+                                <div class="col-md-10 col-lg-10 name-of-project">
+                                    <span>Моніторинг та оцінка організації роботи ЦНАП у містах України</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6 projects-visible-right">
+                                <div class="col-md-5 col-lg-5 project-period visible-period">
+                                    <span>Вересень 2013 </span>
+                                    <span>—</span>
+                                    <span>травень 2014</span>
+                                </div>
+                                <div class="col-md-4 col-lg-4 project-donor">
+                                    <span>Міжнародний Фонд «Відродження»</span>
+                                </div>
+                                <div class="col-md-3 col-lg-3 project-grant">
+                                    <span>100 000 грн</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-lg-12 hidden-information">
+                            <div class="col-md-10 col-lg-10 col-lg-offset-1 col-md-offset-1 ">
+                                <div class="col-md-12 col-lg-12 list-of-project">
+                                    <div class="unordered-list">
+                                        <ul>
+                                            <li>розробка пропозицій щодо проектів підзаконних нормативних актів, необхідних для реалізації Закону "Про адміністративні послуги"</li>
+                                            <li>адвокація розроблених проектів, а також законопроектів про оплату адміністративних послуг та Адміністративно-процедурного кодексу</li>
+                                            <li>підготовка 2-х практичних посібників щодо Закону «Про адміністративні послуги»: а) щодо виконання - для посадових осіб; b) щодо використання - для споживачів. </li>
+                                            <li>Підготовка та поширення науково-практичного коментаря до Закону проведення тренінгів для представників громадських організацій з тематики адміністративних послуг</li>
+                                            <li>організація публічних заходів (круглих столів, конференцій), в Києві та регіонах України</li>
+                                            <li>підготовка публікацій для ЗМІ, проведення прес-конференцій щодо реформи адміністративних послуг</li>
+                                            <li>розробка методики оцінки якості адміністративних послуг</li>
+                                        </ul>
+                                    </div>
+                                    <div class="ordered-list">
+                                        <ol>
+                                            <li>Проведення обстежень на відповідність офісів критеріям «оne-stop-shop», виявлення та популяризація кращих практик. Надання пропозицій органам влади щодо вдосконалення їх роботи. Формування узагальнених рекомендацій на базі «типових» проблем</li>
+                                            <li>здійснення іншої аналітичної роботи та підготовка пропозицій щодо політики та законодавства з питань дерегуляції, децентралізації та зменшення корупції у сфері адміністративних послуг</li>
+                                            <li>проведення 2-х соціологічних досліджень щодо якості адміністративних послуг</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                                <!-- list-of-project -->
+                            </div>
+                            <!-- container-of-list -->
+                            <div class="col-md-11 col-lg-11 col-lg-offset-1 col-md-offset-1 project-table ">
+                                <div class="col-md-12 col-lg-12 project-table-head">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 ">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4">
+                                            <span>Напрямок</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7">
+                                            <span>Керівник</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 ">
+                                            <span>Корупційні ризики</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5">
+                                            <span class='conclusion-span'>Висновок</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- head end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-book.png" height="36" width="28" alt="book">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Конституціоналізм</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Шпенов Д. Ю., народний депутат України</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-positive">
+                                            <span>Виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-house2.png" alt="house">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Публічна адміністрація</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Народний депутат України Дерев'янко Ю.Б.</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-negative">
+                                            <span>Не виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-hummer3.png" height="36" width="28" alt="hummer">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Судівництво</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Продан О.П., народний депутат України</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-negative">
+                                            <span>Не виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-shield4.png" height="36" width="28" alt="shield">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Кримінальна юстиція</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Тігіпко С.Л.</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-negative">
+                                            <span>Не виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-coruption5.png" height="36" width="28" alt="coruption">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Протидія корупції</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Шпенов Д. Ю., народний депутат України</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-positive">
+                                            <span>Виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-admin6.png" height="36" width="28" alt="admin">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Адміністративні послуги</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Народний депутат України Дерев'янко Ю.Б.</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-positive">
+                                            <span>Виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-gerb7.png" height="36" width="28" alt="gerb">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Європейська інтеграція</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Продан О.П., народний депутат України</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-positive">
+                                            <span>Виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-graph8.png" height="36" width="28" alt="graph">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Розвиток ЦППР</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Тігіпко С.Л.</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-negative">
+                                            <span>Не виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+
+                            </div>
+                            <div class="col-md-11 col-lg-11 col-lg-offset-1 col-md-offset-1 project-video">
+                                <img class='video-img' src="img/video.png" height="608" width="1081" alt="video">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-12 one-project">
+                        <div class="col-md-12 col-lg-12 visible-information">
+                            <div class="col-md-6 col-lg-6 projects-visible-left">
+                                <div class="col-md-2 col-lg-2 project-icon">
+                                    <img src="img/lens-projects.png" alt="lens">
+                                </div>
+                                <div class="col-md-10 col-lg-10 name-of-project">
+                                    <span>Громадська антикорупційна експертиза законопроектів</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6 projects-visible-right">
+                                <div class="col-md-5 col-lg-5 project-period visible-period">
+                                    <span>Січень 2014</span>
+                                    <span>—</span>
+                                    <span>липень 2014</span>
+                                </div>
+                                <div class="col-md-4 col-lg-4 project-donor">
+                                    <span>Міжнародний Фонд «Відродження»</span>
+                                </div>
+                                <div class="col-md-3 col-lg-3 project-grant">
+                                    <span>200 000 грн</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-lg-12 hidden-information">
+                            <div class="col-md-10 col-lg-10 col-lg-offset-1 col-md-offset-1 ">
+                                <div class="col-md-12 col-lg-12 list-of-project">
+                                    <div class="unordered-list">
+                                        <ul>
+                                            <li>розробка пропозицій щодо проектів підзаконних нормативних актів, необхідних для реалізації Закону "Про адміністративні послуги"</li>
+                                            <li>адвокація розроблених проектів, а також законопроектів про оплату адміністративних послуг та Адміністративно-процедурного кодексу</li>
+                                            <li>підготовка 2-х практичних посібників щодо Закону «Про адміністративні послуги»: а) щодо виконання - для посадових осіб; b) щодо використання - для споживачів. </li>
+                                            <li>Підготовка та поширення науково-практичного коментаря до Закону проведення тренінгів для представників громадських організацій з тематики адміністративних послуг</li>
+                                            <li>організація публічних заходів (круглих столів, конференцій), в Києві та регіонах України</li>
+                                            <li>підготовка публікацій для ЗМІ, проведення прес-конференцій щодо реформи адміністративних послуг</li>
+                                            <li>розробка методики оцінки якості адміністративних послуг</li>
+                                        </ul>
+                                    </div>
+                                    <div class="ordered-list">
+                                        <ol>
+                                            <li>Проведення обстежень на відповідність офісів критеріям «оne-stop-shop», виявлення та популяризація кращих практик. Надання пропозицій органам влади щодо вдосконалення їх роботи. Формування узагальнених рекомендацій на базі «типових» проблем</li>
+                                            <li>здійснення іншої аналітичної роботи та підготовка пропозицій щодо політики та законодавства з питань дерегуляції, децентралізації та зменшення корупції у сфері адміністративних послуг</li>
+                                            <li>проведення 2-х соціологічних досліджень щодо якості адміністративних послуг</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                                <!-- list-of-project -->
+                            </div>
+                            <!-- container-of-list -->
+                            <div class="col-md-11 col-lg-11 col-lg-offset-1 col-md-offset-1 project-table ">
+                                <div class="col-md-12 col-lg-12 project-table-head">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 ">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4">
+                                            <span>Напрямок</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7">
+                                            <span>Керівник</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 ">
+                                            <span>Корупційні ризики</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5">
+                                            <span class='conclusion-span'>Висновок</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- head end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-book.png" height="36" width="28" alt="book">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Конституціоналізм</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Шпенов Д. Ю., народний депутат України</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-positive">
+                                            <span>Виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-house2.png" alt="house">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Публічна адміністрація</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Народний депутат України Дерев'янко Ю.Б.</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-negative">
+                                            <span>Не виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-hummer3.png" height="36" width="28" alt="hummer">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Судівництво</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Продан О.П., народний депутат України</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-negative">
+                                            <span>Не виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-shield4.png" height="36" width="28" alt="shield">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Кримінальна юстиція</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Тігіпко С.Л.</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-negative">
+                                            <span>Не виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-coruption5.png" height="36" width="28" alt="coruption">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Протидія корупції</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Шпенов Д. Ю., народний депутат України</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-positive">
+                                            <span>Виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-admin6.png" height="36" width="28" alt="admin">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Адміністративні послуги</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Народний депутат України Дерев'янко Ю.Б.</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-positive">
+                                            <span>Виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-gerb7.png" height="36" width="28" alt="gerb">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Європейська інтеграція</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Продан О.П., народний депутат України</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-positive">
+                                            <span>Виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-graph8.png" height="36" width="28" alt="graph">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Розвиток ЦППР</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Тігіпко С.Л.</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-negative">
+                                            <span>Не виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+
+                            </div>
+                            <div class="col-md-11 col-lg-11 col-lg-offset-1 col-md-offset-1 project-video">
+                                <img class='video-img' src="img/video.png" height="608" width="1081" alt="video">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-12 one-project">
+                        <div class="col-md-12 col-lg-12 visible-information">
+                            <div class="col-md-6 col-lg-6 projects-visible-left">
+                                <div class="col-md-2 col-lg-2 project-icon">
+                                    <img src="img/tribunal.png" alt="tribunal">
+                                </div>
+                                <div class="col-md-10 col-lg-10 name-of-project">
+                                    <span>Подолання неформальних практик у судовій системі</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6 projects-visible-right">
+                                <div class="col-md-5 col-lg-5 project-period visible-period">
+                                    <span>Грудень 2013</span>
+                                    <span>—</span>
+                                    <span>Грудень 2014</span>
+                                </div>
+                                <div class="col-md-4 col-lg-4 project-donor">
+                                    <span>Міжнародний Фонд «Відродження»</span>
+                                </div>
+                                <div class="col-md-3 col-lg-3 project-grant">
+                                    <span>689 895 грн</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-lg-12 hidden-information">
+                            <div class="col-md-10 col-lg-10 col-lg-offset-1 col-md-offset-1 ">
+                                <div class="col-md-12 col-lg-12 list-of-project">
+                                    <div class="unordered-list">
+                                        <ul>
+                                            <li>розробка пропозицій щодо проектів підзаконних нормативних актів, необхідних для реалізації Закону "Про адміністративні послуги"</li>
+                                            <li>адвокація розроблених проектів, а також законопроектів про оплату адміністративних послуг та Адміністративно-процедурного кодексу</li>
+                                            <li>підготовка 2-х практичних посібників щодо Закону «Про адміністративні послуги»: а) щодо виконання - для посадових осіб; b) щодо використання - для споживачів. </li>
+                                            <li>Підготовка та поширення науково-практичного коментаря до Закону проведення тренінгів для представників громадських організацій з тематики адміністративних послуг</li>
+                                            <li>організація публічних заходів (круглих столів, конференцій), в Києві та регіонах України</li>
+                                            <li>підготовка публікацій для ЗМІ, проведення прес-конференцій щодо реформи адміністративних послуг</li>
+                                            <li>розробка методики оцінки якості адміністративних послуг</li>
+                                        </ul>
+                                    </div>
+                                    <div class="ordered-list">
+                                        <ol>
+                                            <li>Проведення обстежень на відповідність офісів критеріям «оne-stop-shop», виявлення та популяризація кращих практик. Надання пропозицій органам влади щодо вдосконалення їх роботи. Формування узагальнених рекомендацій на базі «типових» проблем</li>
+                                            <li>здійснення іншої аналітичної роботи та підготовка пропозицій щодо політики та законодавства з питань дерегуляції, децентралізації та зменшення корупції у сфері адміністративних послуг</li>
+                                            <li>проведення 2-х соціологічних досліджень щодо якості адміністративних послуг</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                                <!-- list-of-project -->
+                            </div>
+                            <!-- container-of-list -->
+                            <div class="col-md-11 col-lg-11 col-lg-offset-1 col-md-offset-1 project-table ">
+                                <div class="col-md-12 col-lg-12 project-table-head">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 ">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4">
+                                            <span>Напрямок</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7">
+                                            <span>Керівник</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 ">
+                                            <span>Корупційні ризики</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5">
+                                            <span class='conclusion-span'>Висновок</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- head end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-book.png" height="36" width="28" alt="book">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Конституціоналізм</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Шпенов Д. Ю., народний депутат України</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-positive">
+                                            <span>Виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-house2.png" alt="house">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Публічна адміністрація</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Народний депутат України Дерев'янко Ю.Б.</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-negative">
+                                            <span>Не виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-hummer3.png" height="36" width="28" alt="hummer">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Судівництво</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Продан О.П., народний депутат України</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-negative">
+                                            <span>Не виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-shield4.png" height="36" width="28" alt="shield">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Кримінальна юстиція</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Тігіпко С.Л.</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-negative">
+                                            <span>Не виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-coruption5.png" height="36" width="28" alt="coruption">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Протидія корупції</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Шпенов Д. Ю., народний депутат України</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-positive">
+                                            <span>Виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-admin6.png" height="36" width="28" alt="admin">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Адміністративні послуги</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Народний депутат України Дерев'янко Ю.Б.</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-positive">
+                                            <span>Виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-gerb7.png" height="36" width="28" alt="gerb">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Європейська інтеграція</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Продан О.П., народний депутат України</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-positive">
+                                            <span>Виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-graph8.png" height="36" width="28" alt="graph">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Розвиток ЦППР</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Тігіпко С.Л.</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-negative">
+                                            <span>Не виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+
+                            </div>
+                            <div class="col-md-11 col-lg-11 col-lg-offset-1 col-md-offset-1 project-video">
+                                <img class='video-img' src="img/video.png" height="608" width="1081" alt="video">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-12 one-project">
+                        <div class="col-md-12 col-lg-12 visible-information">
+                            <div class="col-md-6 col-lg-6 projects-visible-left">
+                                <div class="col-md-2 col-lg-2 project-icon">
+                                    <img src="img/house-projects.png" alt="house">
+                                </div>
+                                <div class="col-md-10 col-lg-10 name-of-project">
+                                    <span>Реформа публічної адміністрації в Вишеградських країнах: уроки для України та Білорусії</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6 projects-visible-right">
+                                <div class="col-md-5 col-lg-5 project-period visible-period">
+                                    <span>Грудень 2013</span>
+                                    <span>—</span>
+                                    <span>Грудень 2014</span>
+                                </div>
+                                <div class="col-md-4 col-lg-4 project-donor">
+                                    <span>Міжнародний Вишеградський Фонд</span>
+                                </div>
+                                <div class="col-md-3 col-lg-3 project-grant">
+                                    <span>€ 8 800</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-lg-12 hidden-information">
+                            <div class="col-md-10 col-lg-10 col-lg-offset-1 col-md-offset-1 ">
+                                <div class="col-md-12 col-lg-12 list-of-project">
+                                    <div class="unordered-list">
+                                        <ul>
+                                            <li>розробка пропозицій щодо проектів підзаконних нормативних актів, необхідних для реалізації Закону "Про адміністративні послуги"</li>
+                                            <li>адвокація розроблених проектів, а також законопроектів про оплату адміністративних послуг та Адміністративно-процедурного кодексу</li>
+                                            <li>підготовка 2-х практичних посібників щодо Закону «Про адміністративні послуги»: а) щодо виконання - для посадових осіб; b) щодо використання - для споживачів. </li>
+                                            <li>Підготовка та поширення науково-практичного коментаря до Закону проведення тренінгів для представників громадських організацій з тематики адміністративних послуг</li>
+                                            <li>організація публічних заходів (круглих столів, конференцій), в Києві та регіонах України</li>
+                                            <li>підготовка публікацій для ЗМІ, проведення прес-конференцій щодо реформи адміністративних послуг</li>
+                                            <li>розробка методики оцінки якості адміністративних послуг</li>
+                                        </ul>
+                                    </div>
+                                    <div class="ordered-list">
+                                        <ol>
+                                            <li>Проведення обстежень на відповідність офісів критеріям «оne-stop-shop», виявлення та популяризація кращих практик. Надання пропозицій органам влади щодо вдосконалення їх роботи. Формування узагальнених рекомендацій на базі «типових» проблем</li>
+                                            <li>здійснення іншої аналітичної роботи та підготовка пропозицій щодо політики та законодавства з питань дерегуляції, децентралізації та зменшення корупції у сфері адміністративних послуг</li>
+                                            <li>проведення 2-х соціологічних досліджень щодо якості адміністративних послуг</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                                <!-- list-of-project -->
+                            </div>
+                            <!-- container-of-list -->
+                            <div class="col-md-11 col-lg-11 col-lg-offset-1 col-md-offset-1 project-table ">
+                                <div class="col-md-12 col-lg-12 project-table-head">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 ">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4">
+                                            <span>Напрямок</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7">
+                                            <span>Керівник</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 ">
+                                            <span>Корупційні ризики</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5">
+                                            <span class='conclusion-span'>Висновок</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- head end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-book.png" height="36" width="28" alt="book">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Конституціоналізм</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Шпенов Д. Ю., народний депутат України</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-positive">
+                                            <span>Виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-house2.png" alt="house">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Публічна адміністрація</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Народний депутат України Дерев'янко Ю.Б.</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-negative">
+                                            <span>Не виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-hummer3.png" height="36" width="28" alt="hummer">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Судівництво</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Продан О.П., народний депутат України</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-negative">
+                                            <span>Не виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-shield4.png" height="36" width="28" alt="shield">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Кримінальна юстиція</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Тігіпко С.Л.</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-negative">
+                                            <span>Не виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-coruption5.png" height="36" width="28" alt="coruption">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Протидія корупції</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Шпенов Д. Ю., народний депутат України</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-positive">
+                                            <span>Виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-admin6.png" height="36" width="28" alt="admin">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Адміністративні послуги</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Народний депутат України Дерев'янко Ю.Б.</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-positive">
+                                            <span>Виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-gerb7.png" height="36" width="28" alt="gerb">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Європейська інтеграція</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Продан О.П., народний депутат України</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-positive">
+                                            <span>Виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-graph8.png" height="36" width="28" alt="graph">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Розвиток ЦППР</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Тігіпко С.Л.</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-negative">
+                                            <span>Не виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+
+                            </div>
+                            <div class="col-md-11 col-lg-11 col-lg-offset-1 col-md-offset-1 project-video">
+                                <img class='video-img' src="img/video.png" height="608" width="1081" alt="video">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-12 one-project">
+                        <div class="col-md-12 col-lg-12 visible-information">
+                            <div class="col-md-6 col-lg-6 projects-visible-left">
+                                <div class="col-md-2 col-lg-2 project-icon">
+                                    <img src="img/cogwheel-project.png" alt="cogwheel">
+                                </div>
+                                <div class="col-md-10 col-lg-10 name-of-project">
+                                    <span>Розвиток комунікаційної спроможності Центру політико-правових реформ</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6 projects-visible-right">
+                                <div class="col-md-5 col-lg-5 project-period visible-period">
+                                    <span>Квітень 2013</span>
+                                    <span>—</span>
+                                    <span>квітень 2013</span>
+                                </div>
+                                <div class="col-md-4 col-lg-4 project-donor">
+                                    <span>Фонд розвитку аналітичних центрів Інституту відкритого суспільства</span>
+                                </div>
+                                <div class="col-md-3 col-lg-3 project-grant">
+                                    <span>€ 70 064</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-lg-12 hidden-information">
+                            <div class="col-md-10 col-lg-10 col-lg-offset-1 col-md-offset-1 ">
+                                <div class="col-md-12 col-lg-12 list-of-project">
+                                    <div class="unordered-list">
+                                        <ul>
+                                            <li>розробка пропозицій щодо проектів підзаконних нормативних актів, необхідних для реалізації Закону "Про адміністративні послуги"</li>
+                                            <li>адвокація розроблених проектів, а також законопроектів про оплату адміністративних послуг та Адміністративно-процедурного кодексу</li>
+                                            <li>підготовка 2-х практичних посібників щодо Закону «Про адміністративні послуги»: а) щодо виконання - для посадових осіб; b) щодо використання - для споживачів. </li>
+                                            <li>Підготовка та поширення науково-практичного коментаря до Закону проведення тренінгів для представників громадських організацій з тематики адміністративних послуг</li>
+                                            <li>організація публічних заходів (круглих столів, конференцій), в Києві та регіонах України</li>
+                                            <li>підготовка публікацій для ЗМІ, проведення прес-конференцій щодо реформи адміністративних послуг</li>
+                                            <li>розробка методики оцінки якості адміністративних послуг</li>
+                                        </ul>
+                                    </div>
+                                    <div class="ordered-list">
+                                        <ol>
+                                            <li>Проведення обстежень на відповідність офісів критеріям «оne-stop-shop», виявлення та популяризація кращих практик. Надання пропозицій органам влади щодо вдосконалення їх роботи. Формування узагальнених рекомендацій на базі «типових» проблем</li>
+                                            <li>здійснення іншої аналітичної роботи та підготовка пропозицій щодо політики та законодавства з питань дерегуляції, децентралізації та зменшення корупції у сфері адміністративних послуг</li>
+                                            <li>проведення 2-х соціологічних досліджень щодо якості адміністративних послуг</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                                <!-- list-of-project -->
+                            </div>
+                            <!-- container-of-list -->
+                            <div class="col-md-11 col-lg-11 col-lg-offset-1 col-md-offset-1 project-table ">
+                                <div class="col-md-12 col-lg-12 project-table-head">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 ">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4">
+                                            <span>Напрямок</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7">
+                                            <span>Керівник</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 ">
+                                            <span>Корупційні ризики</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5">
+                                            <span class='conclusion-span'>Висновок</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- head end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-book.png" height="36" width="28" alt="book">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Конституціоналізм</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Шпенов Д. Ю., народний депутат України</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-positive">
+                                            <span>Виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-house2.png" alt="house">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Публічна адміністрація</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Народний депутат України Дерев'янко Ю.Б.</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-negative">
+                                            <span>Не виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-hummer3.png" height="36" width="28" alt="hummer">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Судівництво</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Продан О.П., народний депутат України</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-negative">
+                                            <span>Не виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-shield4.png" height="36" width="28" alt="shield">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Кримінальна юстиція</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Тігіпко С.Л.</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-negative">
+                                            <span>Не виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-coruption5.png" height="36" width="28" alt="coruption">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Протидія корупції</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Шпенов Д. Ю., народний депутат України</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-positive">
+                                            <span>Виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-admin6.png" height="36" width="28" alt="admin">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Адміністративні послуги</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Народний депутат України Дерев'янко Ю.Б.</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-positive">
+                                            <span>Виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-gerb7.png" height="36" width="28" alt="gerb">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Європейська інтеграція</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Продан О.П., народний депутат України</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-positive">
+                                            <span>Виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+                                <div class="col-md-12 col-lg-12 project-table-row">
+                                    <div class="col-md-8 col-lg-8 project-table-right">
+                                        <div class="col-md-1 col-lg-1 table-project-icon">
+                                            <img src="img/project-table-graph8.png" height="36" width="28" alt="graph">
+                                        </div>
+                                        <div class="col-md-4 col-lg-4 orientation">
+                                            <span>Розвиток ЦППР</span>
+                                        </div>
+                                        <div class="col-md-7 col-lg-7 leader">
+                                            <span>Тігіпко С.Л.</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4  project-table-left">
+                                        <div class="col-md-7 col-lg-7 coruption coruption-negative">
+                                            <span>Не виявлено</span>
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 conclusion">
+                                            <span class='conclusion-span conclusion-img'></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row end -->
+
+                            </div>
+                            <div class="col-md-11 col-lg-11 col-lg-offset-1 col-md-offset-1 project-video">
+                                <img class='video-img' src="img/video.png" height="608" width="1081" alt="video">
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- контейнер для всего конец-->
+            <footer>
+                <div class="back-to-top">
+                    <div class="hexagon">
+                        <a href="#"  onclick="return up()"><img src="img/back-to-top.png" height="29" width="24" alt="UP"></a> 
+                    </div> 
+                </div>
+                <div class="footer-nav">
+                <div class="row row-for-margin">
+                <div class="col-md-12 col-lg-10 col-lg-offset-1">
+                    <div class="footer-cont">
+                    <div class="col-md-3 footer-nav-left">
+                        <div class="logo-footer">
+                            <img src="img/logo-footer.png" height="94" width="184" alt="ЦППР">
+                        </div>
+                        <div class="footer-pre-logo">
+                            <h4 class="footer-pre-logo">Центр політико-правових реформ</h4>
+                        </div>
+                        <div class="fb-pic">
+                            <img src="img/fb-pic.png" height="214" width="243" alt="facebook-share">
+                        </div>
+                    </div>
+                    <div class="col-md-9 footer-nav-right">
+                        <div class="footer-nav-panel">
+                            <div class="col-md-4 style-panel">
+                                <ul>
+                                    <li><a href="#">Головна</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#">Про ЦППР</a></li>
+                                    <li><a href="#">Проекти</a></li>
+                                    <li><a href="#">Організація</a></li>
+                                    <li><a href="#">Діяльність</a></li>
+                                    <li><a href="#">Команда</a></li>
+                                    <li><a href="#">Видання</a></li>
+                                    <li><a href="#">Контакти</a></li>
+                                    <li><a href="#">Для журналістів</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#">Інфографіка</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#">Законотворчість</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#">Новини</a></li>
+                                    <li><a href="#">Тендери</a></li>
+                                    <li><a href="#">Вакансії</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#">Підтримати нас</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#">Шукаємо Волонтерів</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4 style-panel">
+                                <ul>
+                                    <li><a href="#">Конституціоналізм</a></li>
+                                    <li><a href="#">Права людини</a></li>
+                                    <li><a href="#">Конституційне правосуддя</a></li>
+                                    <li><a href="#">Політичні партії та вибори</a></li>
+                                    <li><a href="#">Парламентаризм</a></li>
+                                    <li><a href="#">Конституційна реформа</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#">Публічна адміністрація</a></li>
+                                    <li><a href="#">Теорія адміністративного права</a></li>
+                                    <li><a href="#">Адміністративна реформа</a></li>
+                                    <li><a href="#">Органи виконавчої влади</a></li>
+                                    <li><a href="#">Державна служба</a></li>
+                                    <li><a href="#">Адміністративна процедура</a></li>
+                                    <li><a href="#">Адміністративне деліктне право</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#">Судівництво</a></li>
+                                    <li><a href="#">Дисциплінарна відповідальність суддів</a></li>
+                                    <li><a href="#">Судова реформа</a></li>
+                                    <li><a href="#">Судоустрій і статус суддів</a></li>
+                                    <li><a href="#">Цивільне судочинство</a></li>
+                                    <li><a href="#">Кримінальне судочинство</a></li>
+                                    <li><a href="#">Адміністративна юстиція</a></li>
+                                    <li><a href="#">Правова допомога</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4 style-panel">
+                                <ul>
+                                    <li><a href="#">Протидія корупції</a></li>
+                                    <li><a href="#">Законодавство та коментарі</a></li>
+                                    <li><a href="#">Практика запобігання і протидії корупції</a></li>
+                                    <li><a href="#">Методологія антикорупційної експертизи</a></li>
+                                    <li><a href="#">Експертиза законів</a></li>
+                                    <li><a href="#">Експертиза законопроектів VII скликання</a></li>
+                                    <li><a href="#">Експертиза законопроектів VIII скликання</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#">Адміністративні послуги</a></li>
+                                    <li><a href="#">Теорія адміністративних послуг</a></li>
+                                    <li><a href="#">Центри надання адміністративних послуг</a></li>
+                                    <li><a href="#">Базові адміністративні послуги</a></li>
+                                    <li><a href="#">Плата за адміністративні послуги</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#">Європейська інтеграція</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                <div class="bg-contact">
+                <div class="footer-contact">
+                        <div class="row footer-contact-table">
+                        <div class="col-md-12 col-lg-10 col-lg-offset-1">
+                            <div class="col-md-4 contact-info">
+                                <table class="table-contact">
+                                    <tr>
+                                        <td>e-mail:</td>
+                                        <td class="mail-table"><a href="#">centre@pravo.org.ua</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>тел:</td>
+                                        <td>+38 044 278 03 17</td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>+38 044 278 03 72</td>
+                                    </tr>
+                                    <tr>
+                                        <td>факс:</td>
+                                        <td>+38 044 278 16 55</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="col-md-4 link-info">
+                                <p>Передруки та цитування вітаються за умови посилання на <span>www.pravo.org.ua</span></p>
+                                <img src="img/share-for-web.png" height="30"  alt="share-social">
+                            </div>
+                            <div class="col-md-4">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Пошук по сайту">
+                                    <span class="input-group-addon" id="basic-addon1">
+                                        <img src="img/search-input.png" height="37" width="32" alt="search">
+
+                                    </span>
+                                 </div>
+                                 <div class="bottop-input">
+                                    <span>Розробка сайту:<img src="img/footer-input-logo.png" height="28" width="99" alt="logo-dev"></span>
+                                    <span>© Центр політико-правових реформ 1996 - 2015</span>
+                                 </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-maps">
+                        <div class="overlay">
+                            <span>м.Київ, вул.Хрещатик 4, оф. 13, поштовий індекс: 01001</span>
+                        </div>
+                        <div id="map-canvas">
+
+                        </div>  
+                </div>  
+            
+            </div>                
+            </footer>
+        </div>
+        
+        
+
+
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- own code -->
+    <script src="js/owl.carousel.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('a').on('click', function (e) {
+                e.preventDefault();
+            });
+
+            $('#ddmenu li').hover(function () {
+                clearTimeout($.data(this, 'timer'));
+                $('ul', this).stop(true, true).slideDown(0);
+            }, function () {
+                $.data(this, 'timer', setTimeout($.proxy(function () {
+                    $('ul', this).stop(true, true).slideUp(0);
+                }, this), 100));
+            });
+
+        });
+    </script>
+    <script type="text/javascript">
+        function up() {
+            var top = Math.max(document.body.scrollTop, document.documentElement.scrollTop);
+            if (top > 0) {
+                window.scrollBy(0, ((top + 100) / -10));
+                t = setTimeout('up()', 30);
+            } else clearTimeout(t);
+            return false;
+        }
+    </script>
+    <script>
+        //search
+        jQuery(document).ready(function () {
+
+            $(function () {
+                $(".search-icon").click(function () {
+                    $(".search-active").toggleClass("active-search-toggle");
+                })
+            });
+        });
+    </script>
+    <script>
+        //search
+        jQuery(document).ready(function () {
+
+            $(function () {
+                $(".cross-search").click(function () {
+                    $(".search-active").toggleClass("active-search-toggle");
+                })
+            });
+        });
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.expampsensor=false"></script>
+    <script>
+        var map;
+        var egglabs = new google.maps.LatLng(50.4523817, 30.5264717);
+        var mapCoordinates = new google.maps.LatLng(50.4523817, 30.5264717);
+
+
+        var markers = [];
+        var image = new google.maps.MarkerImage(
+            'img/maps.png',
+            new google.maps.Size(60, 80),
+            new google.maps.Point(0, 0),
+            new google.maps.Point(42, 56)
+        );
+
+        function addMarker() {
+            markers.push(new google.maps.Marker({
+                position: egglabs,
+                raiseOnDrag: false,
+                icon: image,
+                map: map,
+                draggable: false
+            }));
+
+
+        }
+
+
+        function initialize() {
+            var mapOptions = {
+                backgroundColor: "#ffffff",
+                zoom: 17,
+                disableDefaultUI: true,
+                center: mapCoordinates,
+                mapTypeId: google.maps.MapTypeId.ROADMAP,
+
+
+
+            };
+
+            map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+            addMarker();
+
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+    <script src="js/slider.js"></script>
+    <script>
+        //search
+        jQuery(document).ready(function () {
+
+            $(function () {
+                $(".visible-information").click(function () {
+                    $(this).toggleClass("active-visible-information");
+                })
+            });
+        });
+    </script>
+</body>
+
+</html>

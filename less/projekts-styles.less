@@ -1,0 +1,413 @@
+// Core variables and mixins
+@import "less/variables.less";
+// @import "less/mixins.less";
+// Reset and dependencies
+// // @import "less/normalize.less";
+// @import "less/print.less";
+@import "less/glyphicons.less";
+// // Core CSS
+// @import "less/scaffolding.less";
+// @import "less/type.less";
+// @import "less/code.less";
+// @import "less/grid.less";
+// @import "less/tables.less";
+// @import "less/forms.less";
+// @import "less/buttons.less";
+// Components
+// @import "less/component-animations.less";
+// @import "less/dropdowns.less";
+// @import "less/button-groups.less";
+// @import "less/input-groups.less";
+// @import "less/navs.less";
+// @import "less/navbar.less";
+// @import "less/breadcrumbs.less";
+// @import "less/pagination.less";
+// @import "less/pager.less";
+// @import "less/labels.less";
+// @import "less/badges.less";
+// @import "less/jumbotron.less";
+// @import "less/thumbnails.less";
+// @import "less/alerts.less";
+// @import "less/progress-bars.less";
+// @import "less/media.less";
+// @import "less/list-group.less";
+// @import "less/panels.less";
+// @import "less/responsive-embed.less";
+// @import "less/wells.less";
+// @import "less/close.less";
+// // Components w/ JavaScript
+// @import "less/modals.less";
+// @import "less/tooltip.less";
+// @import "less/popovers.less";
+// @import "less/carousel.less";
+// // Utility classes
+// @import "less/utilities.less";
+// @import "less/responsive-utilities.less";
+//mixins
+// @import "less/mixins/alerts.less";
+// @import "less/mixins/alerts.less";
+// @import "less/mixins/background-variant.less";
+// @import "less/mixins/border-radius.less";
+// @import "less/mixins/buttons.less";
+// @import "less/mixins/center-block.less";
+// @import "less/mixins/clearfix.less";
+// @import "less/mixins/forms.less";
+// @import "less/mixins/gradients.less";
+// @import "less/mixins/grid-framework.less";
+// @import "less/mixins/grid-framework.less";
+// @import "less/mixins/grid.less";
+// @import "less/mixins/hide-text.less";
+// @import "less/mixins/image.less";
+// @import "less/mixins/image.less";
+// @import "less/mixins/labels.less";
+// @import "less/mixins/labels.less";
+// @import "less/mixins/list-group.less";
+// @import "less/mixins/nav-divider.less";
+// @import "less/mixins/nav-vertical-align.less";
+// @import "less/mixins/opacity.less";
+// @import "less/mixins/pagination.less";
+// @import "less/mixins/pagination.less";
+// @import "less/mixins/panels.less";
+// @import "less/mixins/progress-bar.less";
+// @import "less/mixins/reset-filter.less";
+// @import "less/mixins/resize.less";
+// @import "less/mixins/responsive-visibility.less";
+// @import "less/mixins/size.less";
+// @import "less/mixins/tab-focus.less";
+// @import "less/mixins/table-row.less";
+// @import "less/mixins/text-emphasis.less";
+// @import "less/mixins/text-overflow.less";
+// @import "less/mixins/vendor-prefixes.less";
+//variables
+@import "variables.less";
+
+/* -------------------------------------------------- HAND STYLES */
+
+@red: #d83d29; // variables
+@light-grey: #e6e5cf;
+@light-blue: #1c5281;
+@light-cream: #efeed5;
+@light-black: #33332e;
+
+/* font-family: "PTSerifRegular"; */
+
+@font-face {
+    font-family: "PTSerifRegular";
+    src: url("../fonts/PTSerifRegular/PTSerifRegular.eot");
+    src: url("../fonts/PTSerifRegular/PTSerifRegular.eot?#iefix")format("embedded-opentype"), url("../fonts/PTSerifRegular/PTSerifRegular.woff") format("woff"), url("../fonts/PTSerifRegular/PTSerifRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+/* font-family: "PTSerifBoldItalic"; */
+
+@font-face {
+    font-family: "PTSerifBoldItalic";
+    src: url("../fonts/PTSerifBoldItalic/PTSerifBoldItalic.eot");
+    src: url("../fonts/PTSerifBoldItalic/PTSerifBoldItalic.eot?#iefix")format("embedded-opentype"), url("../fonts/PTSerifBoldItalic/PTSerifBoldItalic.woff") format("woff"), url("../fonts/PTSerifBoldItalic/PTSerifBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+/* font-family: "PTSerifItalic"; */
+
+@font-face {
+    font-family: "PTSerifItalic";
+    src: url("../fonts/PTSerifItalic/PTSerifItalic.eot");
+    src: url("../fonts/PTSerifItalic/PTSerifItalic.eot?#iefix")format("embedded-opentype"), url("../fonts/PTSerifItalic/PTSerifItalic.woff") format("woff"), url("../fonts/PTSerifItalic/PTSerifItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+/* font-family: "PTSerifBold"; */
+
+@font-face {
+    font-family: "PTSerifBold";
+    src: url("../fonts/PTSerifBold/PTSerifBold.eot");
+    src: url("../fonts/PTSerifBold/PTSerifBold.eot?#iefix")format("embedded-opentype"), url("../fonts/PTSerifBold/PTSerifBold.woff") format("woff"), url("../fonts/PTSerifBold/PTSerifBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+/* font-family: "PTSansCaptionRegular"; */
+
+@font-face {
+    font-family: "PTSansCaptionRegular";
+    src: url("../fonts/PTSansCaptionRegular/PTSansCaptionRegular.eot");
+    src: url("../fonts/PTSansCaptionRegular/PTSansCaptionRegular.eot?#iefix")format("embedded-opentype"), url("../fonts/PTSansCaptionRegular/PTSansCaptionRegular.woff") format("woff"), url("../fonts/PTSansCaptionRegular/PTSansCaptionRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+/* font-family: "PTSansCaptionBold"; */
+
+@font-face {
+    font-family: "PTSansCaptionBold";
+    src: url("../fonts/PTSansCaptionBold/PTSansCaptionBold.eot");
+    src: url("../fonts/PTSansCaptionBold/PTSansCaptionBold.eot?#iefix")format("embedded-opentype"), url("../fonts/PTSansCaptionBold/PTSansCaptionBold.woff") format("woff"), url("../fonts/PTSansCaptionBold/PTSansCaptionBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+/* font-family: "PTSansRegular"; */
+
+@font-face {
+    font-family: "PTSansRegular";
+    src: url("../fonts/PTSansRegular/PTSansRegular.eot");
+    src: url("../fonts/PTSansRegular/PTSansRegular.eot?#iefix")format("embedded-opentype"), url("../fonts/PTSansRegular/PTSansRegular.woff") format("woff"), url("../fonts/PTSansRegular/PTSansRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+/* font-family: "PTSansRegular"; */
+
+.row-no-pad-in {
+    > div {
+        padding: 0;
+    }
+}
+
+.no-gutters {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+// white background-color
+.background-white {
+    width: 100%;
+    height: 1500px;
+    position: absolute;
+    top: 944px;
+    background-color: #fff;
+    z-index: -1;
+}
+
+// * {
+//     -webkit-transition: all 0.3s ease ;                  
+//     -moz-transition: all 0.3s ease ;                 
+//     -o-transition: all 0.3s ease ;   
+//     -ms-transition: all 0.3s ease ;          
+//     transition: all 0.3s ease ;
+// }
+.project-period {
+    width: 38.666667% !important;
+}
+
+.projects-wrapper {
+    background-image: url(../img/background-two.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.projects-content {
+    height: auto;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.projects-title {
+    h1 {
+        font-family: "PTSerifBold";
+        font-size: 52px;
+        color: @light-black;
+        padding-top: 83px;
+    }
+}
+
+.projects-head {
+    margin-top: 3.5%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #fde127;
+    box-shadow: 0px 4px 22px -10px black;
+    span {
+        display: block;
+        width: 100%;
+        color: @light-black;
+        font-size: 16px;
+        font-family: "PTSerifBold";
+    }
+}
+
+.one-project {
+    border-bottom: 2px solid #9a9a98;
+    .visible-information {
+        padding: 0 !important;
+        cursor: pointer;
+        .project-icon {
+            img {
+                padding-top: 26px;
+            }
+        }
+        .name-of-project {
+            padding-bottom: 36px;
+            span {
+                font-family: "PTSerifBold";
+                font-size: 19px;
+                color: @light-blue;
+                padding-top: 38px;
+                display: block;
+            }
+        }
+        .visible-period {
+            padding-top: 41px;
+            padding-bottom: 36px;
+            span {
+                font-family: "PTSansRegular";
+                font-size: 16px;
+                color: @light-black;
+                display: block;
+            }
+        }
+        .project-donor {
+            padding-top: 41px;
+            span {
+                font-family: "PTSansRegular";
+                font-size: 16px;
+                color: @light-black;
+                display: block;
+            }
+        }
+        .project-grant {
+            padding-top: 41px;
+            span {
+                font: 700 18px PTSerifBold;
+            }
+        }
+    } //visible
+    .hidden-information {
+        height: 0;
+        -webkit-transition: all 1s ease-out;
+        -moz-transition: all 1s ease-out;
+        -o-transition: all 1s ease-out;
+        transition: all 1s ease-out;
+        overflow: hidden;
+    }
+    .active-visible-information + .hidden-information {
+        height: auto;
+        overflow: hidden;
+        .list-of-project {
+            font-family: "PTSansRegular";
+            font-size: 16px;
+            color: @light-black;
+            padding-left: 13px;
+            li {
+                padding-left: 29px;
+                padding-bottom: 16px;
+                line-height: 22px;
+            }
+            .unordered-list {
+                ul {
+                    list-style-image: url(../img/Ellipse.png);
+                }
+            }
+            .ordered-list {
+                ol {
+                    counter-reset: myCounter;
+                }
+                li {
+                    list-style: none;
+                }
+                li:before {
+                    counter-increment: myCounter;
+                    content: counter(myCounter);
+                    color: @light-blue;
+                    font-family: "PTSansBold";
+                    display: inline-block;
+                    font-size: 18px;
+                    margin-left: -46px;
+                    padding-right: 35px;
+                }
+            }
+        }
+        .project-table {
+            padding: 0;
+            .conclusion-span {
+                float: right;
+            }
+            .project-table-head {
+                background-color: @light-cream;
+                span {
+                    color: @light-black;
+                    font-size: 16px;
+                    font-family: "PTSansRegular";
+                    padding-top: 18px;
+                    display: block;
+                    padding-bottom: 20px;
+                }
+            }
+            .project-table-row:hover + .project-table-row {
+                border-top: 1px solid rgba(0, 0, 0, 0);
+            }
+            .project-table-row {
+                border-top: 1px solid #9a9a98;
+                &:first-child {
+                    border-top: 1px solid rgba(0, 0, 0, 0);
+                }
+                &:last-child {
+                    border-bottom: 1px solid #9a9a98;
+                }
+                &:hover {
+                    box-shadow: 0px 4px 22px -10px black;
+                    background-color: @light-cream;
+                    border-top: 1px solid rgba(0, 0, 0, 0);
+                }
+                span {
+                    font-family: "PTSansRegular";
+                    font-size: 16px;
+                    color: @light-black;
+                    padding-top: 18px;
+                    padding-bottom: 18px;
+                    display: block;
+                }
+                .table-project-icon {
+                    padding-top: 8px;
+                    padding-bottom: 8px;
+                }
+                .project-table-right {
+                    .orientation {}
+                    .leader {}
+                }
+                .project-table-left {
+                    .coruption {
+                        span {
+                            padding-left: 22px;
+                        }
+                    }
+                    .coruption-positive {
+                        background-image: url(../img/vujavleno.png);
+                        background-position: left;
+                        background-repeat: no-repeat;
+                    }
+                    .coruption-negative {
+                        background-position: left;
+                        background-repeat: no-repeat;
+                        background-image: url(../img/ne-vujavleno.png);
+                    }
+                    .conclusion-img {
+                        width: 60%;
+                        background-repeat: no-repeat;
+                        background-image: url(../img/conclusion.png);
+                        background-position: 50% 100%;
+                    }
+                }
+            }
+        }
+    }
+    .project-video {
+        margin-top: 45px;
+        margin-bottom: 45px;
+        .video-img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

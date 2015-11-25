@@ -859,6 +859,9 @@
   font-weight: normal;
 }
 /* font-family: "PTSansRegular"; */
+.all-projects {
+  padding-bottom: 15%;
+}
 .row-no-pad-in > div {
   padding: 0;
 }
@@ -868,7 +871,6 @@
 }
 .background-white {
   width: 100%;
-  height: 1500px;
   position: absolute;
   top: 944px;
   background-color: #fff;
@@ -1067,4 +1069,100 @@
 .one-project .project-video .video-img {
   width: 100%;
   height: 100%;
+}
+@media (max-width: 720px) {
+  .projects-head span {
+    font-size: 10px;
+  }
+  .one-project .visible-information .project-grant span {
+    font: 700 11px PTSerifBold;
+  }
+  .one-project .visible-information .project-donor span {
+    font-size: 12px;
+  }
+  .one-project .visible-information .visible-period span {
+    font-size: 11px;
+  }
+  .one-project .visible-information .name-of-project span {
+    font-size: 11px;
+  }
+  .one-project .active-visible-information + .hidden-information .list-of-project {
+    font-size: 10px;
+  }
+  .one-project .active-visible-information + .hidden-information .project-table .project-table-head span {
+    font-size: 9px;
+  }
+  .one-project .active-visible-information + .hidden-information .project-table .project-table-row .project-table-left .coruption span {
+    opacity: 0;
+  }
+  .one-project .active-visible-information + .hidden-information .project-table .project-table-row span {
+    font-size: 11px;
+  }
+  .table-project-icon img {
+    zoom: 0.6;
+    max-width: none;
+  }
+  .projects-title h1 {
+    font-size: 34px;
+  }
+}
+@media (max-width: 480px) {
+  .one-project .active-visible-information + .hidden-information .project-table .project-table-row .project-table-left .conclusion-img {
+    width: 100%;
+  }
+  .orientation span {
+    display: none !important;
+  }
+}
+.navbar-fixed-top {
+  display: none;
+}
+@media (max-width: 992px) {
+  .cont-nav {
+    padding: 0;
+    margin: 0;
+  }
+  .full-size-nav {
+    display: none !important;
+  }
+  .search {
+    display: none;
+  }
+  .nav {
+    background-color: #1c5281;
+  }
+  .nav .dropdown-menu li a {
+    color: #1c5281;
+  }
+  .nav li a {
+    color: #efeed5;
+    font-size: 15px;
+    font-family: "PTSansCaptionRegular";
+  }
+  .nav li a:hover {
+    background-color: #1c5281;
+    color: #efeed5;
+  }
+  .nav li a:active {
+    background-color: #1c5281;
+  }
+  .nav li a:focus {
+    background-color: #1c5281 !important;
+  }
+  .navbar-search .search-query {
+    width: 100%;
+    height: 30px;
+  }
+  .navbar-fixed-top {
+    display: block;
+  }
+  .navbar-fixed-top .div-img {
+    text-align: center;
+  }
+  .navbar-fixed-top .div-img a {
+    box-shadow: none;
+  }
+  .navbar-fixed-top .div-img .navbar-btn {
+    margin: 0;
+  }
 }
